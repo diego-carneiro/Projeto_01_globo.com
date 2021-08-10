@@ -1,0 +1,127 @@
+/*::::::::::Topo da Página::::::::::*/
+.barraTopo{
+    display: flex;
+    align-items: center;
+    width: 1145px;
+    height: 103px;
+    margin: 0 auto;
+}
+.linkTopo{
+    margin-right: 25px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+}
+/*::::::::::Corpo de Notícias::::::::::*/
+.corpoPágina{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1145px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.colunaG1{
+   
+    width: 550px;
+    height: 600px;
+}
+.colunaG1_1{
+    display: flex;
+}
+.colunaG1_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.colunaG1_3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.colunaGe{
+    width: 250px;
+    height: 600px;
+
+}
+.colunaGshow{
+    width: 250px;
+    height: 600px;
+}
+.noticias{
+    margin-bottom: 30px;
+}
+/*::::::::::Classes Auxiliares::::::::::*/
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.g1{
+    color: #CD150B;
+    font-family: "Open Sans", sans-serif;
+}
+.ge{
+    color: #06AA4B; 
+    font-family: "Open Sans", sans-serif;
+}
+.gshow{
+    color: #FF8203;
+    font-family: "Open Sans", sans-serif;
+}
+.tech{
+    color: #666666;
+    font-family: "Open Sans", sans-serif;
+}
+.videos{
+    color: #0769DE;
+    font-family: "Open Sans", sans-serif;
+}
+.separadorTopo{
+    height: 1px;
+    background-color:#e6e6e6;
+    width: 100vw;
+}
+.separadorVertical{
+    width: 1px;
+    height: 600px;
+    background-color:#e6e6e6;
+}
+.caixaDeNoticia{
+    width: 166px;
+}
+/*::::::::::Customização de Imagens::::::::::*/
+.logoGlobo{
+    height: 60px;
+    margin-right: 30px;
+}
+.noticias_styles_1{
+    height: 122px;
+    width: 220px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+.noticias_styles_2{
+    height: 96px;
+    width: 171px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+/*::::::::::Customização de Texto::::::::::*/
+.titulos_styles{
+    font-weight: bold;
+    font-size: 21,5px;
+    margin-bottom: 10px;
+}
+.subtitulos_styles{
+    font-size: 13px;
+}
+.tituloPrincipal{
+    font-size: 52px;
+    font-weight: bold;
+}
+.subtituloPrincipal{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+
