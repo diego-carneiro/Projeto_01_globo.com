@@ -109,10 +109,11 @@ body {
 .titulos_styles{
     font-weight: bold;
     font-size: 21,5px;
-    margin-bottom: 10px;
+    
 }
 .subtitulos_styles{
     font-size: 13px;
+    margin-top: 10px;
 }
 .tituloPrincipal{
     font-size: 52px;
@@ -123,5 +124,6 @@ body {
 }
 a{
     text-decoration: none;
+    
 }
 
